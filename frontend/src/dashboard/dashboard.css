@@ -1,0 +1,165 @@
+.dashboard{
+    display:flex;
+    height: 100vh;
+}
+
+.sidebar{
+    width: 250px;
+    background-color: #363636;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color:white;
+    padding: 10px;
+}
+
+.sidebar ul{
+    list-style-type: none;
+    margin-left: -20px;
+}
+.sidebar ul li{
+    padding: 15px 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.sidebar ul li:hover {
+    background-color: #34495e;
+}
+.main{
+    flex:1;
+    padding: 20px;
+}
+body{
+    background-color: whitesmoke;
+}
+
+.logout {
+    list-style-type: none;
+    margin-top: 240px; 
+  }
+
+  .dashboard .main {
+    padding: 20px;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  
+  .card {
+    background-color: #34495e;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(92, 92, 92, 0.2);
+    padding: 20px;
+    color: #444343;
+    flex: 1 1 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(82, 82, 82, 0.3);
+  }
+  
+  .card-icon {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .card-admin {
+    font-size: 20px;
+    margin-left: -40px;
+    margin-top: -28px;
+  }
+  
+  
+  .card-performance {
+    background-color: #e3f2fd;
+    border: 2px solid #2196f3; 
+
+  }
+  
+  .card-task-status {
+    background-color: #e8f5e9;
+    border: 2px solid #4caf50; 
+  }
+  
+  .card-project-status {
+    background-color: #fff3e0;
+    border: 2px solid #ff9800; 
+  }
+  
+  .card-analysis {
+    background-color: #f3e5f5;
+    border: 2px solid #9c27b0;
+  }
+  
+ 
+  .analysis-body{
+    margin-top: -620px;
+  }
+  
+
+  .filter {
+    margin: 20px 80px;
+    display: flex;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .filter label {
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .filter select {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f9f9;
+    outline: none;
+    cursor: pointer;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .filter select:focus {
+    border-color: #0078d7; 
+    background-color: #eef6ff; 
+  }
+  
+  .filter select:hover {
+    border-color: #005bb5; 
+  }
+  
+  .filter option {
+    padding: 10px;
+    font-size: 16px;
+  }
+  

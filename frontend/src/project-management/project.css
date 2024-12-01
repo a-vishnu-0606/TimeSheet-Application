@@ -1,0 +1,35 @@
+.project-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  .project-table th, .project-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  .project-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  .pedit{
+    margin-bottom: 5px;
+    background-color: rgb(230, 186, 104);
+    color:rgb(37, 37, 37);
+    margin-right: 10px;
+  }
+  .pedit:hover{
+    color: rgb(255, 255, 255);
+  }
+  
+  .search-container1 {
+    margin-top: 70px;
+    margin-left: 120px;
+  }
+  
+  

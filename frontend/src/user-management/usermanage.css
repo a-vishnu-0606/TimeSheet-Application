@@ -1,0 +1,99 @@
+.user-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  .user-table th, .user-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .user-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .pagination {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .pagination button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .pagination button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+    background-color: grey;
+  }
+  .delete{
+    background-color: rgb(247, 116, 116);
+    color:rgb(37, 37, 37);
+  }
+  .edit{
+    background-color: rgb(230, 186, 104);
+    color:rgb(37, 37, 37);
+    margin-right: 10px;
+  }
+  .edit:hover{
+    color: rgb(255, 255, 255);
+  }
+  .delete:hover{
+    color: white;
+  }
+
+.search-container {
+  margin-top: 70px;
+  margin-left: 90px;
+}
+
+.search-form-row {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  width: 100%;
+  margin-left: 20px;
+}
+
+.search-form-row select{
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  
+}
+.search-form-row input {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 1px;
+  width: 30%;
+}
+
+.search-form-row select {
+  flex-grow: 0; 
+}
+
+.search-form-row input {
+  flex-grow: 0; 
+}
+
+
+
+.search-form-row input::placeholder {
+  color: #aaa;
+}
+
+.add-user-button {
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: 120px;
+}
+

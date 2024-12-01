@@ -1,0 +1,190 @@
+.dashboard1 {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar1 {
+    width: 250px;
+    background-color: #363636;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}
+
+.sidebar1 ul {
+    list-style-type: none;
+    margin-left: -20px;
+}
+.sidebar1 ul li {
+    padding: 15px 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.sidebar1 ul li:hover {
+    background-color: #34495e;
+}
+
+.main2 {
+    flex: 1;
+    padding: 20px;
+    margin-top: 50px;
+    position: relative; 
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.logout1 {
+    list-style-type: none;
+    margin-top: 300px; 
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: -40px;
+    align-items: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.project-task-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.dropdown {
+    width: 40%;
+}
+
+.comments-section {
+    width: 80%;
+}
+
+.comments-section address textarea {
+    width: 98%;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.time-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.time-picker {
+    width: 45%;
+}
+
+.time-container1 {
+    display: flex;
+    width: 80%;
+}
+
+.time-picker1 {
+    width: 40%;
+    justify-content: space-between;
+    display: flex;
+}
+
+.time {
+    width: 95%
+}
+
+.select1 {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.select1:focus {
+    outline: none;
+    border-color: darkgreen;
+    box-shadow: 0 0 5px rgba(0, 128, 0, 0.5);
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.close {
+    background-color: rgb(229, 84, 84);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.close:hover {
+    background-color: rgb(229, 84, 84);
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999; 
+}
+
+.popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 500px;
+}
+
+.popup-content button {
+    background-color: grey;
+    border: none;
+    margin-top: 10px;
+    margin-left: 400px;
+    margin-bottom: 10px;
+}
+
+.pagination1 {
+    text-align: center;
+    margin: 20px 0;
+    z-index: 0; 
+    position: relative;
+}
+
+.pagination1 button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.pagination1 button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+    background-color: grey;
+}

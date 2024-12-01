@@ -1,0 +1,80 @@
+.dashboard3{
+    display:flex;
+    height: 100vh;
+}
+
+.sidebar3{
+    width: 250px;
+    background-color: #363636;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color:white;
+    padding: 10px;
+}
+
+.sidebar3 ul{
+    list-style-type: none;
+    margin-left: -20px;
+}
+.sidebar3 ul li{
+    padding: 15px 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.sidebar3 ul li:hover {
+    background-color: #34495e;
+}
+.main3{
+    flex:1;
+    padding: 20px;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+body{
+    background-color: whitesmoke;
+}
+
+.logout3 {
+    list-style-type: none;
+    margin-top: 240px; 
+  }
+
+  .dashboard3 .main {
+    padding: 20px;
+  }
+/* Button for deleting a department */
+.delete-btn {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover {
+    background-color: darkred;
+  }
+  
+  /* Button for going back */
+  .back-btn {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 550px;
+    margin-right: 600px;
+    margin-bottom: 150px;
+  }
+  
+  .back-btn:hover {
+    background-color: darkblue;
+  }
+  
+
+  

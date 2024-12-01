@@ -1,0 +1,55 @@
+
+ 
+  
+  .content-container {
+    display: flex;
+    gap: 2rem;
+    margin-left: 80px;
+    margin-top: -680px;
+  }
+  
+  .stats-column {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 500px;
+  }
+  
+  .details-column {
+    flex: 2;
+    overflow-y: auto;
+    max-height: 80vh; 
+    margin-top: 120px;
+    padding-left: 1rem;
+  }
+  
+  .performance-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .card4 {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-details-scroll {
+    max-height: 100%;
+    width: 80%;
+    overflow-y: auto;
+  }
+  
+  .project-details-scroll ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .project-details-scroll li {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1rem;
+  }
+  

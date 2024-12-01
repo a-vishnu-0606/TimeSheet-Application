@@ -1,0 +1,85 @@
+.performance-cards-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: flex-start;
+    margin-top: -20px;
+    width: 80%;
+    margin-left: 80px;
+  }
+  
+  .performance-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+  }
+  
+  .card4 {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card4 h3 {
+    font-size: 1em;
+    margin-bottom: 15px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .card4 p {
+    font-size: 1em;
+    color: #444;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: -5px;
+  }
+  
+  .card4:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card4:nth-child(1) {
+    background-color: #e3f2fd;
+    border-left: 5px solid #2196f3;
+  }
+  
+  .card4:nth-child(2) {
+    background-color: #e8f5e9;
+    border-left: 5px solid #4caf50;
+  }
+  
+  .card4:nth-child(3) {
+    background-color: #fff3e0;
+    border-left: 5px solid #ff9800;
+  }
+  
+  .card4:nth-child(4) {
+    background-color: #f3e5f5;
+    border-left: 5px solid #9c27b0;
+  }
+
+  
+  .performance-graph {
+    flex: 1;
+    max-width: 50%;
+    padding: 20px;
+    margin-top: 100px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bttn{
+    margin-left: 1100px;
+    margin-top: 50px;
+  }
+  .bttn1{
+    margin-left: 1000px;
+    margin-top: 50px;
+  }

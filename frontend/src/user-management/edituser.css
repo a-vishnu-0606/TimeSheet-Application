@@ -1,0 +1,68 @@
+.edit-user-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-right: 100px;
+    
+    
+  }
+  
+  .form-row {
+    display: flex;
+    margin-left: 60px;
+  }
+  
+  .form-row label {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem; 
+    margin-right: 100px;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    width: 500px;
+  }
+  .update{
+    background-color: rgb(124, 160, 114);
+    margin-right: 10px;
+  }
+  .update:hover{
+    color: rgb(255, 255, 255);
+  }
+  
+  .select3 {
+    width: 91%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    color: #333;
+    appearance: none;
+    cursor: pointer;
+  }
+  
+  .select3:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
